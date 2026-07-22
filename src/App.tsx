@@ -1,12 +1,12 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-// import Features from "./components/Features";
-// import TrustedBy from "./components/TrustedBy";
-// import Consultants from "./components/Consultants";
-// import ConsultCTA from "./components/ConsultCTA";
-// import MapFeatures from "./components/MapFeatures";
-// import BannerCTA from "./components/BannerCTA";
-// import Footer from "./components/Footer";
+import Features from "./components/Features";
+import TrustedBy from "./components/TrustedBy";
+import Consultants from "./components/Consultants";
+import ConsultCTA from "./components/ConsultCTA";
+import MapFeatures from "./components/MapFeatures";
+import BannerCTA from "./components/BannerCTA";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -20,14 +20,14 @@ export default function App() {
       <Navbar />
       <main id="main-content">
         <Hero />
-        {/* <Features />
-        <TrustedBy />
-        <Consultants />
-        <ConsultCTA />
-        <MapFeatures />
-        <BannerCTA /> */}
+         <Features />
+         <TrustedBy /> 
+        <Consultants /> 
+         <ConsultCTA /> 
+         <MapFeatures /> 
+         <BannerCTA />  
       </main>
-      {/* <Footer /> */}
+      <Footer /> 
     </div>
   );
 }
